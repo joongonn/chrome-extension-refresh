@@ -1,0 +1,20 @@
+{
+  "name": "Refresh",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Refresh",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Refresh"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
